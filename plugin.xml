@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://plugin.powerschool.pearson.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd"
+name="Cialfo Power School Data Sync"
+version="1.0"
+description="Cialfo Power School Plugin">
+  <oauth></oauth>
+  <access_request>
+    <field table="STUDENTS" field="SCHED_YEAROFGRADUATION" access="ViewOnly" />
+    <field table="STUDENTS" field="DCID" access="ViewOnly" />
+    <field table="STUDENTS" field="STUDENT_NUMBER" access="ViewOnly" />
+    <field table="STUDENTS" field="FIRST_NAME" access="ViewOnly" />
+    <field table="STUDENTS" field="LAST_NAME" access="ViewOnly" />
+    <field table="STUDENTS" field="DOB" access="ViewOnly" />
+    <field table="STUDENTS" field="GENDER" access="ViewOnly" />
+  </access_request>
+  <publisher name="Cialfo Pte Ltd">
+    <contact email="hello@cialfo.co"/>
+  </publisher>
+</plugin>
